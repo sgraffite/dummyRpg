@@ -24,7 +24,7 @@ export default class StatRow extends Component {
 
         return(
             <Row>
-                <div className="col-md-9 text-left">{incrementButton} {decrementButton} Str</div>
+                <div className="col-md-9 text-left">{incrementButton} {decrementButton} {this.props.statName}</div>
                 <div className="col-md-3 text-right">{this.state.statValue}</div>
             </Row>
         );
