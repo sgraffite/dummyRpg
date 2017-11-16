@@ -42,6 +42,7 @@ class App extends Component {
     };
 
     deleteCharacter(index){
+        this.props.actions.deleteCharacter(index);
         //this.props.store.dispatch(CharacterActions.delete(index));
 /*
         let characters = this.state.characters;

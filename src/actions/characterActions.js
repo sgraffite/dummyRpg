@@ -1,9 +1,17 @@
 export const LOAD = 'CHARACTERS_LOAD';
+export const DELETE = 'CHARACTERS_DELETE';
 
 export function loadCharacters(characters) {
     return {
         type: LOAD,
         characters,
+    }
+}
+
+export function deleteCharacter(index) {
+    return {
+        type: DELETE,
+        index,
     }
 }
 
