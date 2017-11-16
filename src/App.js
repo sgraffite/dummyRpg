@@ -6,18 +6,21 @@ import Panel from 'react-bootstrap/lib/Panel';
 import Grid from 'react-bootstrap/lib/Grid';
 import Row from 'react-bootstrap/lib/Row';
 import Character from './character';
+import { observer } from 'mobx-react';
+
+
 import axios from 'axios';
 window.axios = axios;
 window.axios.defaults.baseURL = 'https://5a09f7457e1850001267a8d5.mockapi.io/api/';
 
-class App extends Component {
-    constructor(props) {
+const App = observer(class App extends Component {
+    /*constructor(props) {
         super(props);
 
         this.state = {
             characters: [],
         };
-    }
+    }*/
 
     componentDidMount(){
         this.loadCharacters();
@@ -27,7 +30,9 @@ class App extends Component {
         let that = this;
         axios.get('/characters')
             .then(function (response) {
-                that.setState({characters: response.data});
+                //that.setState({characters: response.data});
+                that.props.store.setCharacters(response.data);
+                console.log(that.props.store);
             })
             .catch(function (error) {
                 console.log(error);
@@ -35,9 +40,7 @@ class App extends Component {
     };
 
     deleteCharacter(index){
-        let characters = this.state.characters;
-        characters.splice(index, 1);
-        this.setState({characters: characters});
+        this.props.store.deleteCharacter(index);
     }
 
     render() {
@@ -50,7 +53,7 @@ class App extends Component {
                 </header>
                 <Panel header={"Characters"} bsStyle={"primary"}>
                     <Grid>
-                        {this.state.characters.map(function(character, i){
+                        {this.props.store.characters.map(function(character, i){
                             let deleteButton = <Button onClick={that.deleteCharacter.bind(that, i)} bsSize={"xs"} className={"pull-right"}>X</Button>
                             return(
                                 <Row key={character.id}>
@@ -63,6 +66,6 @@ class App extends Component {
             </div>
         );
     }
-}
+});
 
 export default App;
