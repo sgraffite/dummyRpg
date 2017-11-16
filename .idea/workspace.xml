@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94889a0a-3c33-40ea-ab86-fc1f92b15075" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/character.js" afterPath="$PROJECT_DIR$/src/character.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/statRow.js" afterPath="$PROJECT_DIR$/src/statRow.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,31 +49,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="character.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="character.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/character.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="52" column="54" lean-forward="false" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+            <state relative-caret-position="576">
+              <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <marker date="1510784438456" expanded="true" signature="910:923" ph="..." />
-                <marker date="1510784438456" expanded="true" signature="955:2881" ph="..." />
-                <marker date="1510784438456" expanded="true" signature="1019:1753" ph="..." />
-                <marker date="1510784438456" expanded="true" signature="1053:1155" ph="..." />
-                <marker date="1510784438456" expanded="true" signature="1189:1398" ph="..." />
-                <marker date="1510784438456" expanded="true" signature="1432:1560" ph="..." />
-                <marker date="1510784438456" expanded="true" signature="1594:1721" ph="..." />
-                <marker date="1510784438456" expanded="true" signature="1844:2831" ph="..." />
+                <marker date="1510850984237" expanded="true" signature="907:920" ph="..." />
+                <marker date="1510850984237" expanded="true" signature="952:2863" ph="..." />
+                <marker date="1510850984237" expanded="true" signature="1016:1750" ph="..." />
+                <marker date="1510850984237" expanded="true" signature="1050:1152" ph="..." />
+                <marker date="1510850984237" expanded="true" signature="1186:1395" ph="..." />
+                <marker date="1510850984237" expanded="true" signature="1429:1557" ph="..." />
+                <marker date="1510850984237" expanded="true" signature="1591:1718" ph="..." />
+                <marker date="1510850984237" expanded="true" signature="1841:2813" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statRow.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="statRow.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/statRow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="64">
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -114,9 +114,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/character.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/statRow.js" />
+        <option value="$PROJECT_DIR$/src/character.js" />
       </list>
     </option>
   </component>
@@ -213,12 +213,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510678555053</updated>
-      <workItem from="1510678556410" duration="26292000" />
+      <workItem from="1510678556410" duration="27257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26292000" />
+    <option name="totallyTimeSpent" value="27257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -298,30 +298,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/character.js">
+    <entry file="file://$PROJECT_DIR$/src/statRow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="52" column="54" lean-forward="false" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
+        <state relative-caret-position="64">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <marker date="1510784438456" expanded="true" signature="910:923" ph="..." />
-            <marker date="1510784438456" expanded="true" signature="955:2881" ph="..." />
-            <marker date="1510784438456" expanded="true" signature="1019:1753" ph="..." />
-            <marker date="1510784438456" expanded="true" signature="1053:1155" ph="..." />
-            <marker date="1510784438456" expanded="true" signature="1189:1398" ph="..." />
-            <marker date="1510784438456" expanded="true" signature="1432:1560" ph="..." />
-            <marker date="1510784438456" expanded="true" signature="1594:1721" ph="..." />
-            <marker date="1510784438456" expanded="true" signature="1844:2831" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/statRow.js">
+    <entry file="file://$PROJECT_DIR$/src/character.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="576">
+          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <marker date="1510850984237" expanded="true" signature="907:920" ph="..." />
+            <marker date="1510850984237" expanded="true" signature="952:2863" ph="..." />
+            <marker date="1510850984237" expanded="true" signature="1016:1750" ph="..." />
+            <marker date="1510850984237" expanded="true" signature="1050:1152" ph="..." />
+            <marker date="1510850984237" expanded="true" signature="1186:1395" ph="..." />
+            <marker date="1510850984237" expanded="true" signature="1429:1557" ph="..." />
+            <marker date="1510850984237" expanded="true" signature="1591:1718" ph="..." />
+            <marker date="1510850984237" expanded="true" signature="1841:2813" ph="..." />
           </folding>
         </state>
       </provider>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Button from 'react-bootstrap/lib/Button';
 import Row from 'react-bootstrap/lib/Row';
 
-export default class StatRow extends Component {
+export default class Stat extends Component {
     constructor(props) {
         super(props);
         this.state = {

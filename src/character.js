@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import Well from 'react-bootstrap/lib/Well';
 
-import StatRow from './statRow';
+import Stat from './statRow';
 
 export default class Character extends Component {
     constructor(props) {
@@ -50,11 +50,11 @@ export default class Character extends Component {
                     </Col>
                     <Col lg={6}>
                         <Well>
-                            <StatRow statName={"str"} statValue={this.state.str} incrementProperty={this.incrementProperty.bind(this)} decrementProperty={this.decrementProperty.bind(this)}/>
-                            <StatRow statName={"dex"} statValue={this.state.dex} incrementProperty={this.incrementProperty.bind(this)} decrementProperty={this.decrementProperty.bind(this)}/>
-                            <StatRow statName={"int"} statValue={this.state.int} incrementProperty={this.incrementProperty.bind(this)} decrementProperty={this.decrementProperty.bind(this)}/>
-                            <StatRow statName={"wis"} statValue={this.state.wis} incrementProperty={this.incrementProperty.bind(this)} decrementProperty={this.decrementProperty.bind(this)}/>
-                            <StatRow statName={"luc"} statValue={this.state.luc} incrementProperty={this.incrementProperty.bind(this)} decrementProperty={this.decrementProperty.bind(this)}/>
+                            <Stat statName={"str"} statValue={this.state.str} incrementProperty={this.incrementProperty.bind(this)} decrementProperty={this.decrementProperty.bind(this)}/>
+                            <Stat statName={"dex"} statValue={this.state.dex} incrementProperty={this.incrementProperty.bind(this)} decrementProperty={this.decrementProperty.bind(this)}/>
+                            <Stat statName={"int"} statValue={this.state.int} incrementProperty={this.incrementProperty.bind(this)} decrementProperty={this.decrementProperty.bind(this)}/>
+                            <Stat statName={"wis"} statValue={this.state.wis} incrementProperty={this.incrementProperty.bind(this)} decrementProperty={this.decrementProperty.bind(this)}/>
+                            <Stat statName={"luc"} statValue={this.state.luc} incrementProperty={this.incrementProperty.bind(this)} decrementProperty={this.decrementProperty.bind(this)}/>
                         </Well>
                     </Col>
                 </Row>
