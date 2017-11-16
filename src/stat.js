@@ -19,8 +19,8 @@ export default class Stat extends Component {
     }
 
     render(){
-        let incrementButton = <Button onClick={this.props.incrementProperty.bind(this, this.props.statName)} bsStyle={"success"} bsSize={"xs"}>+</Button>;
-        let decrementButton = <Button onClick={this.props.decrementProperty.bind(this, this.props.statName)} bsStyle={"danger"} bsSize={"xs"}>-</Button>;
+        let incrementButton = <Button onClick={this.props.crementProperty.bind(this, this.props.statName, 1)} bsStyle={"success"} bsSize={"xs"}>+</Button>;
+        let decrementButton = <Button onClick={this.props.crementProperty.bind(this, this.props.statName, -1)} bsStyle={"danger"} bsSize={"xs"}>-</Button>;
 
         return(
             <Row>
